@@ -13,25 +13,5 @@ public class PigLatinGenerator {
 
          }
         return null ;
-
     }
-
 }
-/*
-String[] words = str.split(" ");
-        String result = "";
-        for(String word : words) {
-            if (VowelUtils.startsWithVowel(word)) {
-                result += word + "way" + " ";
-            }
-            else{
-                int startIndex = VowelUtils.getIndexOfFirstVowel(word);
-                if(startIndex != -1){
-                    result += word.substring(startIndex) + word.substring(0, startIndex) + "ay" + " ";
-                }else{
-                    result += word + "ay" + " ";
-                }
-            }
-        }
-        return
- */

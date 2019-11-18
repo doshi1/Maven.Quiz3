@@ -39,6 +39,6 @@ public class TicTacToe {
     }
 
     public String[][] getBoard() {
-        return null;
+        return board;
     }
 }
